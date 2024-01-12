@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     //MARK: Stored Properties
-    let firstGradientColors = Gradient(colors: [Color.blue, Color.yellow])
+    let firstGradientColors = Gradient(colors: [Color.blue, Color.purple, Color.yellow])
     
     
     //MARK: Computed Properties
@@ -18,7 +18,7 @@ struct ContentView: View {
             
             //Background
             LinearGradient(
-                gradient: Gradient(colors: [Color.red, Color.yellow, Color.green, Color.blue, Color.purple]),
+                gradient: Gradient(colors: [Color.lightBlueTop, Color.deepPurple, Color.deepYellow]),
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
